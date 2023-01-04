@@ -1,0 +1,22 @@
+#homepage-heading {
+    text-align: center;
+    margin-top: 2%;
+}
+
+#home-page-image {
+    position: absolute;
+    left: 8%;
+    top: 28%;
+}
+
+#home-page-main-text {
+    position: absolute;
+    left: 23%;
+    z-index: 2;
+    font-weight: bold;
+    text-align: center;
+}
+
+#special-text-color {
+    color: #f58220;
+}
