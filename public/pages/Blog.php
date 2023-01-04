@@ -51,7 +51,7 @@
     </div> -->
 
     <?php
-        $posts = include 'D:/xampp/htdocs/Websites/2022/Blog/Assets/Blog/Blog_Posts.php'; 
+        $posts = include '/public/assets/Blog/Blog_Posts.php'; 
         $phparray = array($posts);
         echo "Posts Array: " . $phparray[0];
     ?>
