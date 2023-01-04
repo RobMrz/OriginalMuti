@@ -3,7 +3,7 @@
 
 <head>
     <title>Blog</title>
-    <link rel="stylesheet" type="text/css" href="/Websites/2022/Blog/HomePage.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/styles.css">
 
      <!-- Latest compiled and minified CSS -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -25,16 +25,16 @@
     <nav class="navbar navbar-expand-sm bg-light justify-content-center">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="/Websites/2022/Blog/Index.html">Home</a>
+                <a class="nav-link" href="/index.html">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/Websites/2022/Blog/Pages/Inventory.html">Inventory</a>
+                <a class="nav-link" href="Inventory.html">Inventory</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/Websites/2022/Blog/Pages/Gallery.html">Gallery</a>
+                <a class="nav-link" href="Gallery.html">Gallery</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/Websites/2022/Blog/Pages/Blog.html">Blog</a>
+                <a class="nav-link" href="Blog.html">Blog</a>
             </li>
         </ul>
     </nav> 
@@ -57,7 +57,7 @@
     ?>
 
 
-    <form action="/Websites/2022/Blog/PHP/action.php" method="post">
+    <form action="/public/php/action.php" method="post">
         <input type="text" name="newBlogText"><br>
          <input type="submit" value="Submit Post">
       </form>
