@@ -5,13 +5,13 @@
 
 #home-page-image {
     position: absolute;
-    left: 15%;
+    left: 12%;
     top: 28%;
 }
 
 #home-page-main-text {
     position: absolute;
-    left: 30%;
+    left: 33%;
     z-index: 2;
     font-weight: bold;
     text-align: center;
