@@ -31,9 +31,6 @@ window.onload = function() {
      });
 
    // send the request
-   xhr.send();
-   
-
-  
+   xhr.send();  
   }
   
